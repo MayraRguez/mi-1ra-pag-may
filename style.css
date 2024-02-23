@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Strike&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: linear-gradient(to right bottom, #f5ff7a, #dcf473, #c4e86c, #acdc67, #95d062, #7ace6e, #5ecb7c, #3cc789, #00caab, #00ccc9, #00cbe2, #00c9f3);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 20px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    margin: 20px;
+    text-decoration: none;
+}
+
+p {
+    font-family: "DM Serif Text", serif display: flex;
+    text-align: ;
+}
+
+h5 {
+    color: rgb(15, 40, 151);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.presentacion {
+    color: black;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.container1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+}
+
+.col-md-4 img {
+    border-radius: 100%;
+}
+
+.carousel .item {
+    height: 300px;
+    width: 200px;
+}
+
+#nosotros {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nosotros iframe {
+    padding: 30px;
+    margin: 30px;
+}
+
+footer {
+    color: white;
+}
+
+.btn-primary {
+    background: black !important;
+}
